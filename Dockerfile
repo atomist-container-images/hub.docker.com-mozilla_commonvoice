@@ -1,11 +1,50 @@
-# Tags: release-v1.69.3
-FROM mozilla/commonvoice:release-v1.69.3
+# Tags: main-6c67ddd463a2ef4a804e09a50fd3d2d11f5abcfb-1649171492
+FROM mozilla/commonvoice:main-6c67ddd463a2ef4a804e09a50fd3d2d11f5abcfb-1649171492
+
+# Tags: release-v1.69.5
+FROM mozilla/commonvoice:release-v1.69.5
 
 # Tags: production
 FROM mozilla/commonvoice:production
 
 # Tags: stage
 FROM mozilla/commonvoice:stage
+
+# Tags: stage-v1.69.5-rc2
+FROM mozilla/commonvoice:stage-v1.69.5-rc2
+
+# Tags: main-3cda2e7fabfb7333b2e41c669afe5e8ecfa1b66e-1649168783
+FROM mozilla/commonvoice:main-3cda2e7fabfb7333b2e41c669afe5e8ecfa1b66e-1649168783
+
+# Tags: main-0c77dd140341f77a4c1362044a0bf4ce67c0a3c1-1649166280
+FROM mozilla/commonvoice:main-0c77dd140341f77a4c1362044a0bf4ce67c0a3c1-1649166280
+
+# Tags: main-496a2004e54778a75db4bd34c64b2420a33528c5-1649165570
+FROM mozilla/commonvoice:main-496a2004e54778a75db4bd34c64b2420a33528c5-1649165570
+
+# Tags: stage-v1.69.4-rc1
+FROM mozilla/commonvoice:stage-v1.69.4-rc1
+
+# Tags: release-v1.69.4
+FROM mozilla/commonvoice:release-v1.69.4
+
+# Tags: main-e392d06c76c68540e2e6712fbbd7006f619bc542-1649155932
+FROM mozilla/commonvoice:main-e392d06c76c68540e2e6712fbbd7006f619bc542-1649155932
+
+# Tags: main-f49271142fb4e827e9a6e1516e7f37175da53c90-1649155936
+FROM mozilla/commonvoice:main-f49271142fb4e827e9a6e1516e7f37175da53c90-1649155936
+
+# Tags: main-fddb236e100b13ffe14d16ca6d31e63f012efa77-1649069113
+FROM mozilla/commonvoice:main-fddb236e100b13ffe14d16ca6d31e63f012efa77-1649069113
+
+# Tags: main-9e3607bb53cb0c083bb2abb70a7acc4c1097c837-1649065926
+FROM mozilla/commonvoice:main-9e3607bb53cb0c083bb2abb70a7acc4c1097c837-1649065926
+
+# Tags: main-487a8094e5c92016c2baf080da141714f4539bc6-1649065876
+FROM mozilla/commonvoice:main-487a8094e5c92016c2baf080da141714f4539bc6-1649065876
+
+# Tags: release-v1.69.3
+FROM mozilla/commonvoice:release-v1.69.3
 
 # Tags: main-a1dcac9181f54f967aa6fb9e77bf7a60e8512875-1648734774
 FROM mozilla/commonvoice:main-a1dcac9181f54f967aa6fb9e77bf7a60e8512875-1648734774
@@ -327,33 +366,3 @@ FROM mozilla/commonvoice:main-ab446c2e7ef151bcbddfa0cc8511dcea2180e231-164691318
 
 # Tags: main-b674ea841ee8af57ddeb2e9f09cc33bea1a957ec-1646796364
 FROM mozilla/commonvoice:main-b674ea841ee8af57ddeb2e9f09cc33bea1a957ec-1646796364
-
-# Tags: release-v1.67.5
-FROM mozilla/commonvoice:release-v1.67.5
-
-# Tags: stage-v1.67.5-rc1
-FROM mozilla/commonvoice:stage-v1.67.5-rc1
-
-# Tags: main-8873f78d61b7b31a90a2f28914705c5d73ff21d1-1646244430
-FROM mozilla/commonvoice:main-8873f78d61b7b31a90a2f28914705c5d73ff21d1-1646244430
-
-# Tags: main-55859d8ed153b5f2833ad9baa62d627b893b237d-1646191931
-FROM mozilla/commonvoice:main-55859d8ed153b5f2833ad9baa62d627b893b237d-1646191931
-
-# Tags: main-9650df53958314bce0f03658a0ba35ad5b756d39-1646149402
-FROM mozilla/commonvoice:main-9650df53958314bce0f03658a0ba35ad5b756d39-1646149402
-
-# Tags: main-54e3b176df9aa9e021ccb6cc5f074c6b54f4252c-1646148685
-FROM mozilla/commonvoice:main-54e3b176df9aa9e021ccb6cc5f074c6b54f4252c-1646148685
-
-# Tags: main-219f5310fe1b831c55ab3bf29516377db26c8c6a-1646144652
-FROM mozilla/commonvoice:main-219f5310fe1b831c55ab3bf29516377db26c8c6a-1646144652
-
-# Tags: main-f4a9f571c56be77b80a26bbd3fce86055dfe8f3b-1646144631
-FROM mozilla/commonvoice:main-f4a9f571c56be77b80a26bbd3fce86055dfe8f3b-1646144631
-
-# Tags: release-v1.67.4
-FROM mozilla/commonvoice:release-v1.67.4
-
-# Tags: stage-v1.67.4-rc1
-FROM mozilla/commonvoice:stage-v1.67.4-rc1
